@@ -11,7 +11,7 @@ module.exports = {
             desiredCapabilities: {
                 browserName: "chrome",
             },
-            screenshotDelay: 200,
+            screenshotDelay: 400,
         },
         mobileChrome: {
             automationProtocol: "devtools",
@@ -22,7 +22,7 @@ module.exports = {
                 width: 400,
                 height: 700
             },
-            screenshotDelay: 200,
+            screenshotDelay: 400,
         },
     },
 
