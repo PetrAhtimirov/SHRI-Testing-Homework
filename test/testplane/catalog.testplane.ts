@@ -1,7 +1,7 @@
 // import { clearCart } from './clearCart'
 import { testRequest } from './testApi'
 
-describe('Каталог', () => {
+// describe('Каталог', () => {
   // beforeEach(async ({browser}) => {
   //   await clearCart(browser)
   // })
@@ -12,4 +12,4 @@ describe('Каталог', () => {
   //
   //   expect(items.length).toBeGreaterThan(0)
   // })
-});
+// });
