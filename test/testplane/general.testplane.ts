@@ -1,4 +1,4 @@
-describe("Обшие требования", () => {
+describe("Общие требования", () => {
   it("На ширине меньше 576px навигационное меню скрывается за \"гамбургер\"", async ({browser}) => {
     // подготовка
     await browser.url("http://localhost:3000/hw/store");
@@ -18,7 +18,7 @@ describe("Обшие требования", () => {
 
     // действие
     await browser.$(".Application-Toggler.navbar-toggler").click();
-    await browser.$(".Application-Menu.navbar-collapse .navbar-nav:nth-child(3)").click();
+    await browser.$(".Application-Menu.navbar-collapse .navbar-nav .nav-link:nth-child(3)").click();
 
     // проверка
     await expect(!browser.$(".Application-Menu.navbar-collapse").isDisplayed());
